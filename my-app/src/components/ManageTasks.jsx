@@ -19,7 +19,7 @@ export default function ManageList() {
     };
 
     // sample tasks data
-    const[tasks,setTasks] =  useState([{ id: 1, title: "Finish project report", tags: ["work", "urgent"], dueDate: "2024-10-15" },
+    const[tasks,setTasks] =  useState([{ id: 1, title: "Finish", tags: ["work", "urgent"], dueDate: "2024-10-15" },
         { id: 2, title: "Morning workout", tags: ["fitness"], dueDate: "2024-10-14" },
         { id: 3, title: "Read a book", tags: ["leisure"], dueDate: "2024-10-16" },
         { id: 4, title: "Read a book", tags: ["leisure"], dueDate: "2024-10-16" },
